@@ -5,7 +5,7 @@ I developed this in python 3.8 and ran it on Spyder. If you need help with runni
 Please note, there is some laziness inherent in this, because I made these to suit my own needs first. If you're going to use these scripts you may want to make a few tweaks.
 
 The expected usage is this:
-1) Start with a spreadsheet with your headings at the top:
+1) Start with a spreadsheet with your headings at the top (if you are just updating the existing spreadsheet, you can skip this step):
 
 Post Title |	Post Date |	Resource URL | Post URL |	Useful | Tag1 | Tag2 | Tag3 | Last Updated:
 
@@ -18,7 +18,7 @@ Example: many posts about maps are roughly "Hey does anyone have a map for Yeste
 
 The only tag that is required is Tag1. If you don't include anything in Tag2, that's fine. It reflects something that doesn't have a specific subsection. Here's the example format:
 
-Inputs:
+### Inputs:
 
 Tag1: Vallaki Tag2: (blank) Tag3: (blank)
 
@@ -28,7 +28,7 @@ Tag1: Vallaki Tag2: Wizard of Wines Tag3: (blank)
 
 Tag1: Vallaki Tag2: Wizard of Wines Tag3: Editor's Choice
 
-Outputs:
+### Outputs:
 ## Vallaki
 
 (some link) 
