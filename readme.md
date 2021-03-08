@@ -18,15 +18,24 @@ Example: many posts about maps are roughly "Hey does anyone have a map for Yeste
 The only tag that is required is Tag1. If you don't include anything in Tag2, that's fine. It reflects something that doesn't have a specific subsection. Here's the example format:
 
 Inputs:
+
 Tag1: Vallaki Tag2: (blank) Tag3: (blank)
+
 Tag1: Vallaki Tag2: (blank) Tag3: (blank)
+
 Tag1: Vallaki Tag2: Wizard of Wines Tag3: (blank)
+
 Tag1: Vallaki Tag2: Wizard of Wines Tag3: Editor's Choice
 
 Outputs:
 ## Vallaki
+
 (some link) 
+
 (some link)
+
 ### Wizard of Wines
+
 (some link)
+
 (some link) Editor's Choice
