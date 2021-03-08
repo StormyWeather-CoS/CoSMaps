@@ -6,6 +6,7 @@ Please note, there is some laziness inherent in this, because I made these to su
 
 The expected usage is this:
 1) Start with a spreadsheet with your headings at the top:
+
 Post Title |	Post Date |	Resource URL | Post URL |	Useful | Tag1 | Tag2 | Tag3 | Last Updated:
 
 2) Run CoSMaps-PSAW.py
