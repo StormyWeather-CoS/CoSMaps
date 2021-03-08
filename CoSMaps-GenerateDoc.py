@@ -116,7 +116,7 @@ p = doc.add_paragraph()
 run = p.add_run("# r/CoS Maps")
 font = run.font
 font.name = 'Arial'
-last_updated = ws['G1'].value
+last_updated = ws['J1'].value
 last_updated = last_updated[:10]
 
 p = doc.add_paragraph()
