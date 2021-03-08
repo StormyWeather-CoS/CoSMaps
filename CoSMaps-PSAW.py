@@ -27,7 +27,7 @@ count = 0
 # Open the spreadsheet, get the last updated value, set the last updated value to now.
 wb = load_workbook(filename = file)
 ws = wb['CoSMapsPSAW']
-start_epoch = ws['G1'].value
+start_epoch = ws['J1'].value
 print("last updated: {}".format(start_epoch))
 ws['J1'] = str(dt.datetime.now())
 
