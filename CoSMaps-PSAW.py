@@ -29,7 +29,7 @@ wb = load_workbook(filename = file)
 ws = wb['CoSMapsPSAW']
 start_epoch = ws['G1'].value
 print("last updated: {}".format(start_epoch))
-ws['G1'] = str(dt.datetime.now())
+ws['J1'] = str(dt.datetime.now())
 
 # Set r as 'new', but if we ran the script already today set it as 'end' to avoid freezing
 # due to empty generator. Ridiculous string typing and parsing because it works
