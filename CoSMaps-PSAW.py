@@ -14,7 +14,7 @@ api = PushshiftAPI()
 
 file = 'CoSMapsPSAW.xlsx'
 start_epoch=int(dt.datetime(2016, 1, 1).timestamp())
-sub = 'curseofstrahd'
+sub = 'CurseofStrahd'
 count = 0
 
 # handler = logging.StreamHandler()
@@ -39,6 +39,16 @@ time_string = str(start_epoch)
 time_check = dt.date(int(time_string[0:4]), int(time_string[5:7]), int(time_string[8:10]))
 if time_check == dt.date.today():
     r = 'end'
+
+# Convert start_epoch from a string, to a datetime timestamp, to an int, so the int can be passed as a
+# term to the request
+start_epoch = int(dt.datetime(int(start_epoch[0:4]),
+                          int(start_epoch[5:7]),
+                          int(start_epoch[8:10]),
+                          int(start_epoch[11:13]),
+                          int(start_epoch[14:16]),
+                          int(start_epoch[17:19])).timestamp())
+
 # Create the generator
 gen = api.search_submissions(after=start_epoch,
                              sort='asc',
